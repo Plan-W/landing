@@ -586,7 +586,7 @@ jQuery(document).ready(function($) {
 			}
 		}, {offset: -($(".navigation").height())}).waypoint(function(d) {
 			if ( d == "up" ) {
-				$(this).css("height", "0");
+				$(this).css("height", "0px");
 				$(".navigation").removeClass("fixed");
 			}
 		});
