@@ -578,7 +578,7 @@ jQuery(document).ready(function($) {
 	if ( $("#nav-begins").length ) {
 		$("#nav-begins").waypoint(function(d) {
 			if ( d == "down" ) {
-				$(this).css("height", "89px");
+				$(this).css("height", /*"89px"*/"75px");
 				$(".dropdown-menu, .dropdown section").stop().fadeOut('fast');
 				$(".navigation").addClass("fixed").css('opacity', '0').stop().animate({
 					opacity:'1'
