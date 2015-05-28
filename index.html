@@ -147,13 +147,15 @@
     <div class="slider-wrapper">
         
         <!-- masterslider -->
-        <div class="master-slider" id="masterslider" data-height="fullscreen">
-        	
+        
+		<div class="master-slider" id="masterslider" data-height="fullscreen">
+        	<!-- в слайдере оставляю только один слайд в статике-->
             <!-- Slide 1 -->
-            <div class="ms-slide slide-1" style="z-index: 10" data-delay="8">
+            <!--
+				<div class="ms-slide slide-1" style="z-index: 10" data-delay="8"> -->
             	
                 <!-- slide background -->
-                <img src="images/design/transparent.png" data-src="images/slider/image1.png" alt="lorem ipsum dolor sit" />
+                <!--<img src="images/design/transparent.png" data-src="images/slider/image1.png" alt="lorem ipsum dolor sit" />
                 
                 <h1 class="ms-layer center" style="left:0; top:25px;"
                     data-effect="rotatetop(-40,60,l)"
@@ -168,9 +170,10 @@
                     data-delay="300"
                     data-ease="easeOutExpo"
                 >The picture you paint will be the one they’ll see.</h2>
-                
+			-->
                 <!-- iPhone mockup -->
-                <img src="images/blank.gif" data-src="images/slider/iphone.png" alt="layer" class="ms-layer"
+            <!--
+				<img src="images/blank.gif" data-src="images/slider/iphone.png" alt="layer" class="ms-layer"
                     style="top:280px; left:145px; width:797px; height:595px;" 
                     data-effect="bottom(100)"
                     data-duration="1200"
@@ -178,9 +181,10 @@
                     data-ease="easeOutQuad"
                     data-type="image"
                 />
-                
+            -->    
                 <!-- First iPhone Screen Layer -->
-                <img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-1.png" alt="layer" class="ms-layer"
+            <!--
+				<img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-1.png" alt="layer" class="ms-layer"
                     style="top:345px; left:295px; width:489px; height:303px;"
                     data-type="image"
                     data-delay="600"
@@ -192,9 +196,10 @@
                     data-hide-duration="1200"
                     data-hide-time="3000"
                 />
-                
+            -->    
                 <!-- First iPhone Screen Layer -->
-                <img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-1.png" alt="layer" class="ms-layer"
+            <!--
+				<img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-1.png" alt="layer" class="ms-layer"
                     style="top:345px; left:295px; width:489px; height:303px;"
                     data-type="image"
                     data-delay="3000"
@@ -206,9 +211,10 @@
                     data-hide-duration="1200"
                     data-hide-time="4500"
                 />
-                
+            -->    
                  <!-- First iPhone Screen Layer -->
-                <img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-1.png" alt="layer" class="ms-layer"
+            <!--
+				<img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-1.png" alt="layer" class="ms-layer"
                     style="top:345px; left:295px; width:489px; height:303px;"
                     data-type="image"
                     data-delay="4500"
@@ -220,9 +226,9 @@
                     data-hide-duration="1200"
                     data-hide-time="6000"
                 />
-                
+            -->    
                 <!-- First iPhone Screen Layer -->
-                <img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-3.png" alt="layer" class="ms-layer"
+            <!--    <img src="images/blank.gif" data-src="images/slider/slide-1-iphonescreen-3.png" alt="layer" class="ms-layer"
                     style="top:345px; left:295px; width:489px; height:303px;"
                     data-type="image"
                     data-delay="6000"
@@ -232,13 +238,14 @@
                 />
              
             </div>
+			-->
             <!-- end of slide -->
             
             <!-- slide 2 -->
             <div class="ms-slide slide-2" style="z-index: 11" data-delay="6">
           
                 <!-- slide background -->
-            	<img src="images/design/transparent.png" data-src="images/slider/laptopglasses.png" alt="lorem ipsum dolor sit"/>  
+            	<img src="images/design/transparent.png" data-src="images/slider/laptopglasses-600.png" alt="lorem ipsum dolor sit"/>  
                  
                   <h2 class="ms-layer" style="left:7px; top:215px;"
                     data-effect="top(100)"
@@ -273,7 +280,8 @@
             <!-- end of slide -->
             
             <!-- slide 3 -->
-            <div class="ms-slide slide-video" style="z-index: 9" data-delay="8">
+            <!--
+			<div class="ms-slide slide-video" style="z-index: 9" data-delay="8">
                  
             	<img src="images/design/transparent.png" data-src="images/slider/laptopglasses.png" alt="lorem ipsum dolor sit"/>  
                 
@@ -425,7 +433,7 @@
         -->
         
     </section><!-- .content-section -->
-    
+    <!--Секция Our Work скрыта на будущее
     <section class="content-section anim fadeInDown" data-wow-delay="0.25s">
         <div class="container">
             <h1><i class="fa fa-pencil"></i>OUR <span>WORK</span></h1>
@@ -443,8 +451,8 @@
                 </ul>
             </div>
             <!-- Standard button -->
-        </div><!-- container -->
-         <div class="gallary">
+    <!--</div><!-- container -->
+    <!--<div class="gallary">
          	<div class="preview">
             	<i class="fa fa-spinner fa-spin"></i>
             </div>
@@ -475,7 +483,7 @@
                     </a>
                 </li>
                 <!-- End of row -->
-                
+        <!--        
                 <li class="work">
                    	<a href="images/blog-image-2.jpg" id="desc" data-icon="fa-eye" data-lightbox="image-1">
                         <img src="http://placehold.it/400x300g/f8c2c5/ffffff" />
@@ -989,9 +997,9 @@
 		****** MasterSlider *****
 		*************************/
 		// Calibrate slider's height
-		var sliderHeight = 790; // Smallest hieght allowed (default height)
+		var sliderHeight = 590; // Smallest hieght allowed (default height was 790)
 		if ( $('#masterslider').data('height') == 'fullscreen' ) {
-			var winHeight = $(window).height();
+			var winHeight = $(window).height() - 200; //-200 нужно, чтобы помещался слайдер в экран.
 			sliderHeight = winHeight > sliderHeight ? winHeight : sliderHeight;
 		}
 		

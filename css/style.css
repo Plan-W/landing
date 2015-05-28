@@ -57,15 +57,16 @@ a:hover {
 }
 
 .slider-wrapper i.fa#go-down {
-	font-size:24px;
+	font-size:/*24*/48px;
 	font-weight:0;
 	position:absolute;
 	bottom:15px;
-	left:25px;
+	left:50%/*25px*/;
 	opacity:.5;
 	color:#fff;
 	cursor:pointer;
 	display:none;
+	border: 1px solid;
 }
 
 .container-wrapper {

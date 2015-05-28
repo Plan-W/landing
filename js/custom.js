@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
 		function animate() {
 			$(chevronDown).animate({
 				bottom:'35px',
-				paddingBottom:"20px",
+				paddingBottom:"60px",// высота прыжка по умолчанию было 20 px
 				opacity:.1
 			}, 1000, "easeOutExpo", function() {
 				$(this).animate({
@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
 				display:'block'
 			});
 			setInterval(animate, 2000);
-		}, 6000);
+		}, 2000); // было 6000. Время до появления стрелки
 	}
 	
 
