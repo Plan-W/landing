@@ -7,12 +7,13 @@
 .master-slider {
 	position: relative;
 	visibility: hidden;
-	min-height:790px;
+	min-height:290px;/*790*/
 	-moz-transform: translate3d(0 , 0 , 0);
 }
 
 .master-slider h1, 
 .master-slider h2,
+.master-slider h3,
 .master-slider p {
 	font-size:96px;
 	font-family:"Roboto", Arial, sans-serif;
@@ -24,6 +25,9 @@
 
 .master-slider h2 {
 	font-size:46px;
+}
+.master-slider h3 {
+	font-size: 24px;
 }
 
 .master-slider p {

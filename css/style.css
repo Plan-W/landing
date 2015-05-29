@@ -140,13 +140,13 @@ a:hover {
 
 .navigation .navbar-default ul.navbar-nav li a {
 	height:87px;
-	padding:0 30px;
+	padding:0 20px;
 	line-height:87px;
 	margin-top:1px;
-	font-family:18px;
-	font-family:"Roboto", Arial, sans-serif;
-	color:#868686;
-	font-weight:300;
+	font-size:18px;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
+	color:#000; /*#868686;*/
+	font-weight:600;
 }
 
 .navigation .navbar-default ul.navbar-nav li a:hover {
@@ -158,6 +158,17 @@ a:hover {
 	background:transparent;
 	color:#6ebff3;
 }
+
+.navigation .navbar-default ul.navbar-nav li:last-child a {
+	color:#ff916b; /*#868686;*/
+	font-size:20px;
+}
+
+.navigation .navbar-default ul.navbar-nav li:last-child a:hover {
+	color:#6ebff3; /*#868686;*/
+}
+
+
 
 .navigation .navbar-default .search-icon-wrapper i {
 	width:41px;
@@ -217,7 +228,7 @@ a:hover {
 	background:transparent;
 	border:0;
 	font-size:55px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	color:#fff;
 	width:100%;
@@ -290,7 +301,7 @@ a:hover {
 	margin:0;
 	font-size:12px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:rgba(255,255,255,.65) !important;
 	line-height:0;
 }
@@ -419,13 +430,13 @@ a:hover {
 
 .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a {
 	color:rgba(255,255,255,.55);
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	margin:0;
 	padding:0;
 	height:29px;
 	display:block;
-	font-size:13px;
+	font-size:16px; /*was 13px*/
 	line-height:29px;
 	position:relative;
 }
@@ -435,7 +446,7 @@ a:hover {
 	font-size:16px;
 	line-height:36px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	padding:0 0 0 29px;
 	margin:20px 0 5px 0;
 	display:block;
@@ -459,7 +470,7 @@ a:hover {
 	font-weight:100;
 	outline:none;
 	font-size:14px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 }
 
 .navigation ul.navbar-nav li.dropdown.full section span.wrapper ul li a i {
@@ -485,7 +496,7 @@ a:hover {
 .slug span {
 	text-align:center;
 	display:block;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	color:#fff;
 	line-height:0;
@@ -619,7 +630,7 @@ section.content-section .row.no-heading {
 	line-height:50px;
 	text-indent:15px;
 	height:50px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-size:13px;
 	font-weight:300;
 	padding:0;
@@ -683,7 +694,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	position:relative;
 }
 
@@ -770,7 +781,7 @@ h6 {
 	line-height:36px;
 	margin-bottom:0;
 	color:rgba(64,64,64,.7);
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	text-align:center;
 }
 
@@ -958,7 +969,7 @@ ul.pagination {
 ul.pagination li a {
 	background:#f9f8f8;
 	border:1px solid #f1f1f1;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	font-size:14px;
 }
@@ -1017,7 +1028,7 @@ ul.pagination li a:hover {
 
 .single .author h5 {
 	font-size:22px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:300;
 	display:inline-block;
 	float:left;
@@ -1048,7 +1059,7 @@ ul.pagination li a:hover {
 .single .author p {
 	font-size:16px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	line-height:29px;
 	float:left;
 	text-align:left;
@@ -1095,7 +1106,7 @@ ul.pagination li a:hover {
 .single ul.comments li h5 {
 	font-size:18px;
 	font-weight:300;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	position:relative;
 	padding:20px 0 0 50px;
 	display:inline-block;
@@ -1106,7 +1117,7 @@ ul.pagination li a:hover {
 	display:inlin-block;
 	float:left;
 	margin:31px 0 0 35px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#828282;
 	font-size:12px;
 	color:#919191;
@@ -1117,7 +1128,7 @@ ul.pagination li a:hover {
 	font-size:16px;
 	font-weight:100;
 	clear:both;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	text-align:left;
 	line-height:29px;
 	max-width:100%;
@@ -1159,7 +1170,7 @@ ul.pagination li a:hover {
 	font-weight:100;
 	font-size:22px;
 	color:#404040;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	line-height:17px;
 	padding:0;
 	margin:0 0 20px 0;
@@ -1196,7 +1207,7 @@ ul.pagination li a:hover {
 	width:85%;
 	height:45px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-size:14px;
 	color:#555555;
 	text-indent:14px;
@@ -1242,7 +1253,7 @@ ul.pagination li a:hover {
 	font-size:14px;
 	font-weight:100;
 	margin-bottom:10px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	display:block;
 }
 
@@ -1263,7 +1274,7 @@ ul.pagination li a:hover {
 .sidebar .text p {
 	font-size:14px;
 	text-align:left;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	letter-spacing:.2px;
 	margin-bottom:64px;
@@ -1288,7 +1299,7 @@ ul.pagination li a:hover {
 	font-size:14px;
 	font-weight:100;
 	color:#404040;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	float:left;	
 	margin:3px 0;
 	display:block;
@@ -1321,7 +1332,7 @@ ul.pagination li a:hover {
 .sidebar ul.posts span.hover span {
 	color:#fff;
 	padding:0 13px 0 0;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	display:none;
 }
@@ -1409,7 +1420,7 @@ ul.pagination li a:hover {
 
 .feature-list-2 .feature h5 {
 	font-size:20px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:300;
 }
 
@@ -1494,7 +1505,7 @@ a#desc span.desc {
 	bottom:0;
 	background:rgba(91,178,234,.80);
 	color:#fff;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 }
 
 a#desc span i.fa {
@@ -1514,7 +1525,7 @@ a#desc span.desc span.subtitle {
 	width:100%;
 	position:relative;
 	font-size:18px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#fff;
 	display:inline-block;
 	font-weight:300;
@@ -1567,7 +1578,7 @@ a#desc span.desc span.subtitle {
 .portfolio.light .filter li a,
 .portfolio.light .filter li a.hot {
 	line-height:47px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-size:16px;
 	font-weight:100;
 	color:#404040;
@@ -1678,7 +1689,7 @@ a#desc span.desc span.subtitle {
 	padding:0;
 	margin:34px 0 0 0;
 	font-size:24px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:300;
 	color:rgba(255,255,255,1);
 }
@@ -1809,7 +1820,7 @@ a#desc span.desc span.subtitle {
 	font-size:28px;
 	padding:22px 0 0 35px;
 	margin:0;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:300;
 	color:#4e4e4e;
 	text-align:left;
@@ -1818,7 +1829,7 @@ a#desc span.desc span.subtitle {
 .team .member-box .clear-wrapper p {
 	font-size:18px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;	
+	font-family:"Exo 2 Condensed", Arial, sans-serif;	
 	color:#4e4e4e;
 	text-align:left;
 	padding:0;
@@ -1878,7 +1889,7 @@ a#desc span.desc span.subtitle {
 .team .member-box .color-wrapper strong,
 .team .member-box .color-wrapper span {
 	font-size:28px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:300;
 	text-align:center;
 	width:100%;
@@ -1997,7 +2008,7 @@ a#desc span.desc span.subtitle {
 
 .form.contact .message p {
 	position:relative;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-size:22px;
 	font-weight:100;
 	color:#fff;
@@ -2056,7 +2067,7 @@ a#desc span.desc span.subtitle {
 	line-height:20px;
 	font-size:20px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#8b8b8b;
 	border:1px solid #d5d5d5;
 	outline:none;
@@ -2087,7 +2098,7 @@ a#desc span.desc span.subtitle {
 	height:66px;
 	background:#707070;
 	border:0;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#fff;
 	font-size:18px;
 	outline:none;
@@ -2124,7 +2135,7 @@ a#desc span.desc span.subtitle {
 .form.contact #message_sent p {
 	font-size:45px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#fff;	
 	position:relative;
 	text-align:center;
@@ -2176,7 +2187,7 @@ footer .content-section {
 
 footer .content-section h1 {
 	font-size:60px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#fff;
 	font-weight:100;
 	line-height:0;
@@ -2221,7 +2232,7 @@ footer .foot-wrapper p.liner {
 	color:#fff;
 	font-size:22px;
 	line-height:0;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	margin:45px 0;
 }
@@ -2264,7 +2275,7 @@ ul.social-media li a:hover {
 footer .foot-wrapper p.copyright {
 	color:rgba(255,255,255,.6);
 	font-size:12px;
-	font-family:"Roboto", Arial, sans-serif;	
+	font-family:"Exo 2 Condensed", Arial, sans-serif;	
 	padding:0;
 	margin:55px 0 0 0;
 	padding-bottom:22px;
@@ -2277,7 +2288,7 @@ footer.classic .row > div {
 footer.classic h5 {
 	font-size:22px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#fff;
 	text-align:left;	
 }
@@ -2302,7 +2313,7 @@ footer.classic p {
 	font-weight:100;
 	text-align:left;
 	color:#fff;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	line-height:24px;
 }
 
@@ -2351,7 +2362,7 @@ footer.classic .twitter-article .tweet-time {
 
 footer.classic .twitter-article .tweet-time a {
 	font-size:14px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	color:#6ebff3;	
 }
@@ -2388,7 +2399,7 @@ footer.classic div.contact-info > span {
 	font-size:14px;
 	color:#fff;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	display:block;
 	margin-top:5px;
 }
@@ -2414,7 +2425,7 @@ footer.classic .copyright {
 	font-size:12px;
 	font-weight:100;
 	color:#fff;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	padding:10px 0 20px 0;
 }
 
@@ -2519,7 +2530,7 @@ footer.classic .copyright {
 	text-align:center;
 	font-size:45px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	line-height:60px;
 }
 
@@ -2552,7 +2563,7 @@ footer.classic .copyright {
 	display:inline-block;
 	color:#fff;
 	margin-top:30px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#fff;
 }
 .content-section.fixed cite strong {
@@ -2616,7 +2627,7 @@ div.testimonials > i.fa-quote-right {
 	padding:0 21px;
 	margin:0;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 }
 
 .testimonial-wrapper .owl-item > div > img {
@@ -2657,7 +2668,7 @@ ul.fa li {
 	color:#404040;
 	font-size:16px;
 	font-weight:100;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	margin:0 0 20px 0;
 }
 
@@ -2707,7 +2718,7 @@ ul.number-list li i.fa {
 ul.number-list li span {
 	color:#fff;
 	font-size:45px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	line-height:0;
 	margin:0 0 30px 0;
@@ -2755,7 +2766,7 @@ ul.bars li p {
 	font-size:18px;
 	font-weight:300;
 	color:#4e4e4e;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	display:inline-block;
 }
 
@@ -2773,7 +2784,7 @@ ul.bars li span {
 	font-size:18px;
 	font-weight:100;
 	color:#4e4e4;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	display:inline-block;
 	margin:0 0 5px 0;
 }
@@ -2819,7 +2830,7 @@ ul.info-list li span p {
 ul.info-list li > span cite,
 ul.info-list li > span article {
 	display:inline-block;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	text-align:left;
 	color:#404040;
@@ -2880,7 +2891,7 @@ ul.info-list li i.fa {
 	cursor:pointer;
 	width:170px;
 	line-height:45px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	border-bottom:1px solid #f0f0f0;
 	font-size:16px;
@@ -2948,7 +2959,7 @@ ul.info-list li i.fa {
 .read strong {
 	font-size:16px;
 	font-weight:300;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	color:#404040;
 	display:block;
 	margin:10px 0 31px 0;
@@ -2980,7 +2991,7 @@ ul.info-list li i.fa {
 .chart span.percent {
 	position:absolute;	
 	color:#fff;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	font-size:20px;
 	padding:0;
@@ -2997,7 +3008,7 @@ ul.info-list li i.fa {
 .chart h4 {
 	font-size:24px;
 	color:#fff;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:300;
 	margin-bottom:30px;
 }
@@ -3009,7 +3020,7 @@ ul.info-list li i.fa {
 .chart-wrapper p {
 	font-size:16px 		!important;
 	color:#fff;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	margin:25px 0 0 0 	!important;
 	padding:0 			!important;
 	line-height:28px 	!important;
@@ -3031,7 +3042,7 @@ ul.info-list li i.fa {
 .btn-danger, 
 .btn-bordered,
 .btn-white {
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-size:14px;
 	font-weight:100;
 	border:none;
@@ -3143,6 +3154,17 @@ ul.info-list li i.fa {
 	background:#fff;
 }
 
+.btn-bordered.blue {
+		color:#6ebff3;
+		background:#fff;
+		border-color: #6ebff3;
+		font-size: 30px;
+}
+.btn-bordered.blue:hover {
+		color: #fff;
+		background: #6ebff3;
+}
+
 .btn-white {
 	background:#fff;
 }
@@ -3151,6 +3173,7 @@ ul.info-list li i.fa {
 	color:#fff;
 	background:#404040;
 }
+
 
 .btn-sm {
 	padding:10px 40px;
@@ -3198,7 +3221,7 @@ ul.info-list li i.fa {
 }
 
 .callout p {
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-size:22px;
 	font-weight:100;
 	line-height:26px;
@@ -3381,7 +3404,7 @@ blockquote {
 	width:100%;
 	clear:both;
 	padding:30px 40px;
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-weight:100;
 	font-size:18px;
 	line-height:34px;
@@ -3476,7 +3499,7 @@ ul.accordion li > article {
 }
 
 ul.accordion li > article p {
-	font-family:"Roboto", Arial, sans-serif;
+	font-family:"Exo 2 Condensed", Arial, sans-serif;
 	font-size:16px;
 	font-weight:100;
 	text-align:left;
@@ -3496,25 +3519,27 @@ ul.accordion li.active > article p {
 */
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Exo 2 Condensed';
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+  src: local('Exo 2 Condensed Light'), local('Exo 2 Condensed-Light'), url(http://themes.googleusercontent.com/static/fonts/Exo 2 Condensed/v10/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Exo 2 Condensed';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+  src: local('Exo 2 Condensed Regular'), local('Exo 2 Condensed-Regular'), url(http://themes.googleusercontent.com/static/fonts/Exo 2 Condensed/v10/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
 
 @media (min-width: 1200px) {
+	}
 }
 
 @media (max-width: 1199px) {
 	.team .member-box .shadow-lg {
 		display:none;	
 	}
+	
 	.navigation ul.navbar-nav li.dropdown.full section {
 		margin-left:-352px;
 	}
@@ -3605,7 +3630,7 @@ ul.accordion li.active > article p {
 	.read strong {
 		font-size:16px;
 		font-weight:300;
-		font-family:"Roboto", Arial, sans-serif;
+		font-family:"Exo 2 Condensed", Arial, sans-serif;
 		color:#404040;
 		display:block;
 		margin:10px 0 31px 0;
@@ -3637,6 +3662,7 @@ ul.accordion li.active > article p {
 	}
 }
 @media (max-width: 989px) {
+	
 	.navigation ul.navbar-nav li.dropdown.full section {
 		margin-left:-131px;
 	}
@@ -3802,7 +3828,7 @@ ul.accordion li.active > article p {
 	ul.number-list li span {
 		color:#fff;
 		font-size:30px;
-		font-family:"Roboto", Arial, sans-serif;
+		font-family:"Exo 2 Condensed", Arial, sans-serif;
 		font-weight:100;
 		line-height:0;
 		margin:0 0 30px 0;
@@ -3977,10 +4003,10 @@ ul.accordion li.active > article p {
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){ 
     
 	@font-face {
-	  font-family: 'Roboto';
+	  font-family: 'Exo 2 Condensed';
 	  font-style: normal;
 	  font-weight: 100;
-	  src: local('Roboto Thin'), local('Roboto-Thin'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/vzIUHo9z-oJ4WgkpPOtg13YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+	  src: local('Exo 2 Condensed Thin'), local('Exo 2 Condensed-Thin'), url(http://themes.googleusercontent.com/static/fonts/Exo 2 Condensed/v10/vzIUHo9z-oJ4WgkpPOtg13YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
 	}
 	
 }

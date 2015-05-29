@@ -3,10 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>HTML5 шаблон сайта web-студии</title>
-
+<title>Разработка сайтов в Москве, создание интернет-магазинов, landing page. Студия Plan-W</title>
+<meta name="description" content="Разработка сайтов и интернет-магазинов. Проектирование, анализ, дизайн, требования, люди, процессы, разработка, тестирование, поддержка — всё в IT. Когда другие решения не сработали запускайте Plan-W >
+<meta name="keywords" content="Создание сайтов, оптимизация процесов, интеграция с 1С, проектирование, ux, ui, usability, юзабилити, user experience, customer experienct, design, дизайн, требования, анализ, системные требования, бизнес-требования, сбор требований, управление, управление проектами, менеджмент проектов, pm, project management, оптимизация." >
 	<!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- Primary CSS styles -->
@@ -16,6 +17,8 @@
     <link href="css/masterslider/skins/black-1/style.css" rel="stylesheet" />
     <!-- Fontawesome CSS styles -->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+	<!-- exotwocondensed font CSS styles -->
+    <link href="css/exotwocondensed.css" rel="stylesheet" />
     <!-- Aniamte CSS styles -->
     <link href="css/animate.css" rel="stylesheet" />
     <!-- Nivo Slider CSS Styles -->
@@ -42,7 +45,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.jpg" />
+                        <img src="images/logo.jpg" alt="Plan-W (План-В логотип" />
                     </a>
                     <ul class="mini"></ul><!-- mobile navigation -->
             	</div><!-- .navbar-header -->
@@ -50,19 +53,21 @@
                 <div class="collapse navbar-collapse">
                 	<div class="right">
                         <ul class="nav navbar-nav">
-                            <li class="dropdown h full">
-                            	<a href="#">Что делаем</a>
+                            <li><a href="#firstSection">ЧТО</a></li>
+							<!--
+							<li class="dropdown h full">
+                            	<a href="#firstSection">ЧТО?</a>
                                 <section class="container dropdown-menu">
                                 	<span class="wrapper">
                                     	<div class="clear-wrapper">
                                         	<article>
                                                 <strong>РАЗРАБОТКА</strong>
                                                 <ul>
-                                                    <li><a href="#"><i class="fa fa-video-camera"></i>Интернет-магазин</a></li>
-                                                    <li><a href="#"><i class="fa fa-picture-o"></i>Landing page</a></li>
-                                                    <li><a href="#"><i class="fa fa-sun-o"></i>Корпоративный сайт</a></li>
-                                                    <li><a href="#"><i class="fa fa-moon-o"></i>Сайт-визитка</a></li>
-													<li><a href="#"><i class="fa fa-moon-o"></i>Сайт-каталог</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Интернет-магазин</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Landing page</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Корпоративный сайт</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Сайт-визитка</a></li>
+													<li><a href="#"><i class="fa"></i>Сайт-каталог</a></li>
                                                 </ul>
                                             </article>
                                             
@@ -71,39 +76,42 @@
                                             <article>
                                                 <strong>ПРОДВИЖЕНИЕ</strong>
                                                 <ul>
-                                                    <li><a href="#"><i class="fa fa-moon-o"></i>Поисковое продвижение</a></li>
-													<li><a href="#"><i class="fa fa-video-camera"></i>SEO оптимизация</a></li>
-                                                    <li><a href="#"><i class="fa fa-picture-o"></i>Контекстная реклама</a></li>
-                                                    <li><a href="#"><i class="fa fa-sun-o"></i>Медийная реклама</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Поисковое продвижение</a></li>
+													<li><a href="#"><i class="fa"></i>SEO оптимизация</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Контекстная реклама</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Медийная реклама</a></li>
                                                 </ul>
                                             </article>
                                             
                                             <span class="divider"></span>
                                             
                                             <article>
-                                                <strong>Юзабилити</strong>
+                                                <strong>ЮЗАБИЛИТИ</strong>
                                                 <ul>
-                                                    <li><a href="#"><i class="fa fa-video-camera"></i>Аудит сайтов</a></li>
-                                                    <li><a href="#"><i class="fa fa-picture-o"></i>Прототипирование</a></li>
-                                                    <li><a href="#"><i class="fa fa-sun-o"></i>A/B тестирование</a></li>
-                                                    <li><a href="#"><i class="fa fa-moon-o"></i>Анализ пользователей</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Аудит сайтов</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Прототипирование</a></li>
+                                                    <li><a href="#"><i class="fa"></i>A/B тестирование</a></li>
+                                                    <li><a href="#"><i class="fa"></i>Анализ пользователей</a></li>
                                                 </ul>
                                             </article>
                                         </div><!-- .clear-wrapper -->
-                                        
-                                        <div class="color-wrapper">
-                                        	<strong>ПОРТФОЛИО</strong>
-                                           	<div class="nivo-wrapper">
+                                        <!--
+										<div class="color-wrapper">
+                                        	<span>+7 (499) 348-11-49</span>
+                                           	<!--<div class="nivo-wrapper">
                                                 <div id="slider" class="nivoSlider">
-                                                    <img src="images/citydown.jpg" alt="" name="" width="310" height="150" />
-                                                    <img src="images/oceanscene.jpg" alt="" name="" width="310" height="150" />
+                                                    <img src="images/citydown.jpg" alt="Генеральный директор" name="CEO" width="310" height="150" />
+                                                    <img src="images/oceanscene.jpg" alt="Эксперт по лидам" name="Lead" width="310" height="150" />
                                                 </div>
                                             </div>
-                                            <p><a href="#">Чтобы увидеть больше загляните в наше Портфолио</a></p>
-                                        </div><!-- .color-wrapper -->
+											
+                                            
+                                        </div> .color-wrapper
+										
                                     </span>
-                                </section><!-- .container.dropdown-menu -->
-                            </li><!-- .dropdown.full -->
+                                </section> .container.dropdown-menu
+                            </li> .dropdown.full 
+							-->
 							<!--Выпадающее меню
 							<li class="active dropdown h">
                             	<a href="#">Что делаем</a>
@@ -124,9 +132,10 @@
                                 </ul>
                             </li>
                             -->
-							<li><a href="portfolio-1.html">Как делаем</a></li>
-							<li><a href="portfolio-1.html">Кто мы</a></li>
-                            <li><a href="portfolio-1.html">Портфолио</a></li>
+							<li><a href="#process">КАК</a></li>
+							<li><a href="#teamsection">КТО</a></li>
+                            <li><a href="#message">КОНТАКТ</a></li>
+							<li><a href="#message">+7(499)348-11-49</a></li>
                             <!--<li><a href="blog.html">Blog</a></li>-->
                         </ul>
                         <!-- поиск по сайту
@@ -250,36 +259,34 @@
             <div class="ms-slide slide-2" style="z-index: 11" data-delay="6">
           
                 <!-- slide background -->
-            	<img src="images/design/transparent.png" data-src="images/slider/laptopglasses-600.png" alt="lorem ipsum dolor sit"/>  
-                 
+            	<img src="images/design/transparent.png" data-src="images/slider/laptopglasses-600.png" alt="Делаем сайты, звоните +7(499)348-11-49"/>  
                   <h2 class="ms-layer" style="left:7px; top:215px;"
                     data-effect="top(100)"
                     data-duration="3500"
                     data-delay="0"
                     data-ease="easeOutExpo"
-                >A website like no other.</h2>
+                >Разработка и продвижение сайтов</h2>
                 
                 <h1 class="ms-layer"  style="left:0; top:276px" 
                     data-effect="bottom(short)"
                     data-duration="2500"
                     data-delay="500"
                     data-ease="easeOutExpo"
-                >Modern, Clean, Minimal</h1>
+                >+7 (499) 348-11-49</h1>
                 
-                <p class="ms-layer h4" style="left:7px; top:415px; width:460px;"
+                <h3 class="ms-layer" style="left:7px; top:415px; "
                 	data-effect="bottom(short)"
                     data-duration="1200"
                     data-delay="600"
                     data-ease="300"
-               >Rigged with over xx homepages, xx header styels, xx sliders, 
-				xx footer styles, inifinite color options.</p>
+               >hello@plan-w.ru </h3><!--width:460px;-->
                 
                  <p class="ms-layer h4" style="left:7px; top:517px; width:460px;"
                 	data-effect="bottom(short)"
                     data-duration="1000"
-                    data-delay="650"
+                    data-delay="0"
                     data-ease="300"
-               ><a class="btn btn-bordered white anim"  style="left:7px; top:460px;" role="button">Buy Dale</a></p>
+               ><a class="btn btn-bordered blue anim"  style="left:50px; top:460px;" role="button">Отправить заявку</a></p>
                 
             </div>
             <!-- end of slide -->
@@ -319,7 +326,7 @@
                download file along with stock photos!</p>
                 
             </div>
-            <!-- end of slide -->
+            end of slide -->
             
         </div> <!-- end of masterslider -->
          
@@ -397,33 +404,33 @@
     
     <section class="content-section fixed video blur">
     	<span class="shadows"></span>
-        
+        <!--
      	<div class="video-wrapper">
         	<video id="video1" class="video-js vjs-default-skin" poster="videos/RecordPlayer/poster.jpg" width="1600" height="901" muted="" autoplay="" loop="" preload="">
         		<source src="videos/RecordPlayer/RecordPlayer.mp4" type='video/mp4' />
                 <source src="videos/RecordPlayer/RecordPlayer.webm" type='video/webm' />
                 <source src="videos/RecordPlayer/RecordPlayer.ogv" type='video/ogg' />
             </video>
-     	</div><!-- .video-wrapper -->
+     	</div> .video-wrapper -->
         
-    	<div class="container anim fadeInUp">
+    	<div id="process" class="container anim fadeInUp">
 			<i class="fa fa-quote-left"></i>
         	<ul class="testimonials" id="testimonials">
             
             	<li class="ms-slide">
-                	<img src="images/design/transparent.png" data-src="images/design/transparent.png" />
+                	<img src="images/design/transparent.png" data-src="images/design/transparent.png" alt="Как мы работаем"/>
                 	<h3>Вместо цитат вставить блок как мы работаем.</h3>
                 	<cite><strong>Олег Федотов</strong> - Plan-W генеральный</cite>
                 </li>
                 
                 <li class="ms-slide">
-                	<img src="images/design/transparent.png" data-src="images/design/transparent.png"  />
+                	<img src="images/design/transparent.png" data-src="images/design/transparent.png" alt="Как мы работаем" />
                 	<h3>I love to compete. To me, business is the ultimate sport. It's always on.</h3>
                 	<cite><strong>Mark Cuban</strong> - Businessman</cite>
                 </li>
                 
                 <li class="ms-slide">
-                	<img src="images/design/transparent.png" data-src="images/design/transparent.png"  />
+                	<img src="images/design/transparent.png" data-src="images/design/transparent.png" alt="Как мы работаем" />
                 	<h3>Business is a sprint until you find an opportunity, then it's the patience of a marathon runner.</h3>
                 	<cite><strong>Robert Herjavec</strong> - Businessman</cite>
                 </li>
@@ -455,8 +462,8 @@
                     <li><a class="btn btn-bordered btn-sm" role="button" data-filter=".projects">Projects</a></li>
                 </ul>
             </div>
-            <!-- Standard button -->
-    <!--</div><!-- container -->
+            Standard button -->
+    <!--</div> container -->
     <!--<div class="gallary">
          	<div class="preview">
             	<i class="fa fa-spinner fa-spin"></i>
@@ -487,7 +494,7 @@
                         <img src="http://placehold.it/400x300g/f8c2c5/ffffff" />
                     </a>
                 </li>
-                <!-- End of row -->
+                End of row -->
         <!--        
                 <li class="work">
                    	<a href="images/blog-image-2.jpg" id="desc" data-icon="fa-eye" data-lightbox="image-1">
@@ -517,9 +524,9 @@
             
             <div class="clearfix"></div>
         </div>
-    </section><!-- portfolio -->
+    </section> portfolio -->
     
-    <section class="content-section anim fadeInDown" data-wow-delay="0.25s">
+    <section id="teamsection" class="content-section anim fadeInDown" data-wow-delay="0.25s">
         <div class="container">
             <h1><i class="fa fa-rocket"></i>OUR BADASS <span>TEAM</span></h1>
           	<p>
@@ -1001,9 +1008,9 @@
 		****** MasterSlider *****
 		*************************/
 		// Calibrate slider's height
-		var sliderHeight = 590; // Smallest hieght allowed (default height was 790)
+		var sliderHeight = 390; // Smallest hieght allowed (default height was 790)
 		if ( $('#masterslider').data('height') == 'fullscreen' ) {
-			var winHeight = $(window).height() - 200; //-200 нужно, чтобы помещался слайдер в экран.
+			var winHeight = $(window).height(); //-200 нужно, чтобы помещался слайдер в экран.
 			sliderHeight = winHeight > sliderHeight ? winHeight : sliderHeight;
 		}
 		
